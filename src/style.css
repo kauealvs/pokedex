@@ -1,0 +1,17 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.pokemons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.pokemon-card {
+	margin-bottom: 30px;
+	height: 200px;
+	width: 250px;
+	background: chartreuse;
+}
